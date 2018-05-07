@@ -1,0 +1,149 @@
+
+/*--end-product--*/
+
+h3.like{
+    font-size: 30px;
+    color: #816263;
+    font-weight: 500;
+	    padding: 0;
+}
+a.like_name {
+    line-height: 40px;
+    display: block;
+	color: #000;
+    font-size: 14px;
+	font-family:'OleoScript-Regular';
+    text-decoration: none;
+}
+#flexiselDemo1, #flexiselDemo3 {
+	display: none;
+}
+.nbs-flexisel-container {
+	position: relative;
+	max-width: 100%;
+	    margin-top: 3em;
+}
+.nbs-flexisel-ul {
+	position: relative;
+	width: 9999px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+.nbs-flexisel-inner {
+	overflow: hidden;
+	margin: 0 auto;
+}
+.nbs-flexisel-item {
+	float: left;
+	margin:0px;
+	padding:0px;
+	cursor: pointer;
+	position: relative;
+	line-height: 0px;
+}
+.nbs-flexisel-item > img {
+	cursor: pointer;
+	position: relative;
+	margin-top:10px;
+	margin-bottom: 10px;
+	max-width:350px;
+	max-height:500px;
+	display:inline-block;
+}
+.grid-flex{
+	margin:20px 0 20px 0;
+}
+.nbs-flexisel-item > img {
+	cursor: pointer;
+	position: relative;
+	width: 90%;
+}
+/*** Navigation ***/
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+	margin-top:-2em;
+}
+.nbs-flexisel-nav-left {
+	left: 0px;
+	background: url(../images/arrows.png) no-repeat -8px -7px;
+}
+.nbs-flexisel-nav-right {
+	right: 0px;
+	background: url(../images/arrows.png) no-repeat -61px -7px;
+}
+.other-products {
+    padding: 6px 0px 100px 0px;
+	
+	
+}
+.col-md h3{
+
+    font-size: 1.2em;
+    line-height: 2.1em;
+    font-family: 'OleoScript-Regular';
+    text-align: center;
+   
+    color: #000;
+
+}
+.liked-product{
+	margin-top:0;
+}
+
+
+/*-- responsine-design --*/
+
+
+@media screen and (max-width: 1024px) {	
+	.liked-product {
+		margin-top: 0;
+	}
+	h3.like {
+		font-size: 29px;
+	}
+}
+@media screen and (max-width: 800px) {	
+	
+	
+	.product {
+		margin-top: 30px;
+		float: left;
+		width: 33.333%;
+		padding:0 10px;
+	}
+	
+	
+	.liked-product {
+		width:100%;
+		margin-top:0;
+	}
+}
+
+@media screen and (max-width: 640px) {	
+	.product {
+		padding: 0 5px;
+	}
+}
+@media screen and (max-width: 480px) {	
+	.product {
+		padding: 0 10px;
+		width: 50%;
+	}
+	
+	.liked-product{
+		width:100%;
+	}	
+}
+@media screen and (max-width: 320px) {	
+	.product {
+		padding: 0 15px;
+		width: 100%;
+	}
+	
+}

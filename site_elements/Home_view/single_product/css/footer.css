@@ -1,0 +1,122 @@
+
+/*--footer--*/
+.top-footer iframe{
+	width: 100%;
+	min-height:300px;
+	border: none;
+}
+.top-footer1 h2 {
+  font-size: 2em;
+  color: #005a00;
+    font-family: 'OleoScript-Regular';
+      margin: 0 0 0.5em;
+}
+.top-footer1 input[type="email"] {
+  width: 65%;
+  padding: 0.6em;
+  outline: none;
+  color: #BDBDBD;
+  font-size: 1em;
+  background: none;
+  border: 1px solid #BDBDBD;
+}
+.top-footer1 input[type="submit"] {
+  font-size: 0.9em;
+  color: #fff;
+  background-color:#000;
+  border: none;
+  padding: 0.8em 0em;
+  width: 30%;
+  vertical-align: top;
+  outline: none;
+}
+.top-footer1 input[type="submit"]:hover {
+  background-color:#005a00;
+}
+.footer {
+  border-top: 1px solid #BDBDBD;
+}
+.footer-top {
+  padding: 3em 0 ;
+}
+.top-footer1 {
+  margin: 6em 0 0;
+}
+.footer-bottom-cate h6{
+	font-size: 1.1em;
+	color: #000;
+	margin: 0 0 0.5em;
+	  font-family: 'OleoScript-Regular';
+}
+.footer-bottom-cate ul{
+	padding: 0;
+	margin: 0;
+}
+.footer-bottom-cate ul li{
+	list-style: none;
+	padding: 0.2em 0;
+}
+.footer-bottom-cate ul li:hover{
+background:#005a00;
+color:#fff;
+}
+.footer-bottom-cate ul li:hover a{
+background:#005a00;
+color:#fff;
+	padding-left: 5px;
+}
+
+.footer-bottom-cate ul li a {
+	text-decoration:none;
+	font-size: 0.8em;
+	color: #B2B2B2;
+}
+.footer-bottom-cate ul li a:hover{
+	color:#fff;
+	padding-left: 5px;
+}
+.footer-bottom-cate-right h6{
+	font-size: 1.1em;
+	color: #000;
+	margin: 0 0 0.5em;
+	  font-family: 'OleoScript-Regular';
+}
+.footer-bottom-cate-right ul{
+	padding: 0;
+	margin: 0;
+}
+.footer-bottom-cate-right ul li{
+	list-style: none;
+	padding: 0.2em 0;
+}
+
+.footer-bottom-cate-right ul li a {
+	text-decoration:none;
+	font-size: 0.8em;
+	color: #B2B2B2;
+}
+.footer-bottom-cate-right ul li a:hover{
+	color:#005a00;
+	padding-left: 5px;
+}
+
+p.footer-class {
+  font-size: 1em;
+  color:  #B2B2B2;
+  margin: 2em 0 0 0;
+  text-align:center;
+  padding:20px;
+}
+p.footer-class a{
+  text-decoration:none;
+  color: #52D0C4;
+}
+p.footer-class a:hover{
+  color:  #B2B2B2;
+}
+.footer-bottom {
+	padding: 4em 0;
+	border-top: 1px solid #BDBDBD;
+}
+/*--//footer--*/
+

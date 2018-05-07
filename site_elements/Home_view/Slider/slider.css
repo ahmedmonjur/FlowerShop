@@ -1,0 +1,96 @@
+
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+/*
+.btn_1{
+margin-left:400px;
+}
+.btn_2{
+margin-left:400px;
+}
+
+
+/* small menu *//*
+	.small-menu{
+	 border-bottom:1px solid #CBCBCB;
+	 background-color: #F8F8F8;
+	 min-height: 35px;
+		/*border-bottom: 1px solid rgba(153, 153, 153, 0);*/    
+	}
+	/*.header-left{
+	 background-color: #FFFFFF;
+	 ackground-color: Green;
+	 min-height: 88px;
+	 idth:0px;
+	 border-bottom:1px solid #CBCBCB;
+
+	}
+	
+	/*section*/
+	
+
+.p-l-0{
+    padding-left: 0;
+}
+
+.p-l-r-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+	
+	
+	section{
+    adding-top: 50px;
+    adding-bottom: 50px;
+}
+
+h2.section-title{
+    text-transform: uppercase;
+    color: #131313;
+    margin-top: 0; 
+    margin-bottom: 30px;
+    word-spacing: 5px; 
+    font-size: 30px;
+    font-weight: 700;  
+}
+
+.section-para{
+    color: #999;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+
+
+/*===== Slide ====*/
+.about-us{
+    background-color: #121212;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.about-content{
+    argin: 60px 0 30px 20px;
+}
+
+.about-content h2{
+    color: #8FC93F;
+}
+
+.about-content > p{
+    color: #707070;
+    font-weight: 100;
+    line-height: 20px;
+    ax-width: 535px;
+}
+
+.about-us img, .carousel-inner > .item > img{
+    height: 300px;
+}
+
+/*-----------------------------------*/
